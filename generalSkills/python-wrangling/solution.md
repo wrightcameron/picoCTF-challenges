@@ -8,7 +8,7 @@ Python scripts are invoked kind of like programs in the Terminal... Can you run 
 * [the flag](https://mercury.picoctf.net/static/0bf545252b5120845e3b568b9ad0277e/flag.txt.en)
 
 ## Solution
-The script, encrypted message, and password are given.  Using redirections in Linux the solution 
+The script, encrypted message, and password are given.  Using re-directions in Linux the solution 
 ```bash
 python ende.py -d flag.txt.en < pw.txt
 ```

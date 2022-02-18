@@ -6,6 +6,6 @@ To get truly 1337, you must understand different data encodings, such as hexadec
 The python script created is not unit tested and is kind of brute forced, so extra work could go into improving this script.
 
 ## Solution
-The solution to this was to convert the binary, octo, and hex to ascii characters.  The netcat tcp connection though required that these be solved under 45 seconds each.  So using a python program I was able to take the input, process it, and return the word.
+The solution to this was to convert the binary, octo, and hex to ASCII characters.  The netcat tcp connection though required that these be solved under 45 seconds each.  So using a python program I was able to take the input, process it, and return the word.
 
 Took alittle longer than normal as I didn't know octo, and hex were to come after decimal.

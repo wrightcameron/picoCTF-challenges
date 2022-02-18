@@ -9,7 +9,7 @@ helpful information...
 ## Solution
 This is solved by just running the binary, but running binaries is dangerous.
 
-Here are notes on analysing a binary through Linux commands
+Here are notes on analyzing a binary through Linux commands
 [10 ways to analyze binary files on Linux](https://opensource.com/article/20/4/linux-binary-analysis)
 
 Using commands from this article, the binary itself doesn't appear to complex, those

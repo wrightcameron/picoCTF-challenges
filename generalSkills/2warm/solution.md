@@ -3,7 +3,7 @@
 Can you convert the number 42 (base 10) to binary
 
 ## Notes
-Converting the binary can be as simple as dividing the number by the largest binary number that wouldgo into our decimal.  Then take the remander and go through the smaller binary numbers.
+Converting the binary can be as simple as dividing the number by the largest binary number that would go into our decimal.  Then take the remainder and go through the smaller binary numbers.
 
 42/32= 10
 10/8 = 2

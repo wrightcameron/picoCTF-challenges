@@ -6,5 +6,5 @@ Do you know how to move between directories and read files in the shell? Start t
 Following the text directions leads to completing the challenge.  But another way to solve or find all the files is to use the find command.  The first 2 flag files have flag in the name, so assuming the third one does as well.  The find command will work, `find / -name "*flag*" -print 2> /dev/null`.  Using this find command you can scan all parts of the system for the flags.
 
 ## Solution
-The challenge is to ssh onto a docker container running ubuntu.  In this server are parts of the flag scattered between the launding dir, root directory, and the home of the user.  Each of these dir have a part of the flag and a text file saying where the next one is.
+The challenge is to ssh onto a docker container running Ubuntu.  In this server are parts of the flag scattered between the landing dir, root directory, and the home of the user.  Each of these dir have a part of the flag and a text file saying where the next one is.
 

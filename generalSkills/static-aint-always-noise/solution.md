@@ -11,13 +11,13 @@ The ltdis.sh script is simple, all it does is run the command `objdump -Dj .text
 
 The objdump file is for viewing object files, like binaries.  The -D flag tells the command to "Like -d, but disassemble the contents of all sections, not just those expected to contain instructions."  The -j flag "Display information only for section name." and so our command is only getting disassembly information from the .text section.
 
-THe strings command is printing the printable characters in the file created by objdump.  The -a flag tells it to scan the entire document.  The -t flag is a radix flag, its assuming that the sequence in the file is hex.
+The strings command is printing the printable characters in the file created by objdump.  The -a flag tells it to scan the entire document.  The -t flag is a radix flag, its assuming that the sequence in the file is hex.
 
 Need further tutorials on both objdump and strings to get better understanding.
 
 * https://www.howtogeek.com/427805/how-to-use-the-strings-command-on-linux/
 
 ## Solution
-Running the bash script yields two files. The static.ltdis.strings.txt comtains the flag in the file.  This problem was easy, but the method of how the flag was found is more important than the challenge.  In the future there will be similar challenges but they won't tell you to use the objdump command or to use the strings command.
+Running the bash script yields two files. The static.ltdis.strings.txt contains the flag in the file.  This problem was easy, but the method of how the flag was found is more important than the challenge.  In the future there will be similar challenges but they won't tell you to use the objdump command or to use the strings command.
 
 picoCTF{d15a5m_t34s3r_98d35619}

@@ -3,7 +3,7 @@
 What is 0x3D (base 16) in decimal (base 10)?
 
 ## Notes
-Instead of using a conveter, the solution to this problem with math is.
+Instead of using a converter, the solution to this problem with math is.
 
 =3*16^1 + 13*16^0
 =48 + 13
