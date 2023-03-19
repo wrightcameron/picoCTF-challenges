@@ -15,3 +15,5 @@ Observations during problem
 ## Solution
 
 Answer
+
+*Flag may be different for others due to active competition.*
